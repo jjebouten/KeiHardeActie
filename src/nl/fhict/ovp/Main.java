@@ -28,6 +28,7 @@ public class Main {
                 } else {
                     stints.add(stint);
                    stint = new Stint();
+                   stint.addScholier(scholierenList.get(i));
                 }
             }
         }
